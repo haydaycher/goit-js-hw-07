@@ -84,8 +84,11 @@ input[type="password"] {
 }
 .gallery {
   display: flex;
+  width: 1128px;
+  height: 300px;
+  margin: 100px auto auto;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 48px 24px;
   list-style: none;
   padding: 0;
   justify-content: space-between;
@@ -114,6 +117,16 @@ input[type="password"] {
   color: #2e2f42;
   align-items: center;
   margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 100px 88px;
+  width: 345px;
+  height: 280px;
+  background: #fff;
+  text-align: center;
 }
 .change-color {
   border-radius: 8px;
@@ -137,6 +150,7 @@ input[type="password"] {
   gap: 16px;
   border-radius: 8px;
   padding: 32px;
+  margin-bottom: 16px;
   background: #f6f6fe;
 }
 #boxes {
